@@ -7,12 +7,14 @@ package controleur;
 
 /**
  *
- * @author helen
+ * @author helene
  */
-public class FileFormatException extends Exception{
-    public String getMessage()
-    {
-        String s = "File format problem";
-        return s; 
+public class FileFormatException extends Exception {
+    
+    @Override
+    public String getMessage() {
+        String a = "File format problem";
+        return a;
     }
+    
 }
